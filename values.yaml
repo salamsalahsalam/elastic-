@@ -37,11 +37,7 @@ esConfig:
     xpack.security.transport.ssl.keystore.password: G7#kL2@zQ9!mX4^v
     xpack.security.transport.ssl.truststore.path: /usr/share/elasticsearch/config/elastic-certificates.p12
     xpack.security.transport.ssl.truststore.password: G7#kL2@zQ9!mX4^v
-    repositories:
-      s3:
-        bucket: elasticsearch-snapshots
-        endpoint: minio-service:9000
-        protocol: http
+   
 
     
 
